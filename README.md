@@ -1,5 +1,5 @@
-# Face-Recognition-Attendence-with-AWS-Rekognition-Raspberry-Pi3
-Face Recognition Attendence with AWS Rekognition &amp; Raspberry Pi3 it works with RPI3 using the camera module
+# Face-Recognition-Door-Lock-with-AWS-Rekognition-Raspberry-Pi3
+Face Recognition Door Lock with AWS Rekognition &amp; Raspberry Pi3 it works with RPI3 using the camera module
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                  [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)          [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
@@ -66,18 +66,11 @@ directory = '' #folder name on your raspberry pi
 python train.py
 ```
 
-*Run main.py File on RPI*
+*Run main.py File on RPI ,connect the booton with GPIO 26* 
 ```
 python main.py
 ```
-*Run main_button.py if you want to add a button functionality and connect the booton with GPIO 26*
-```
-python main_button.py
-```
-*Run main_motion.py if you want to add Motion sensor functionality and connect the Motion Sensor with GPIO 4*
-```
-python main_motion.py
-```
+
 
 ## License & Copyright
 © [Arbaz Khan](https://arbazkhan4712.github.io/Contact.html)
